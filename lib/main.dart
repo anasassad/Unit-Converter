@@ -147,6 +147,13 @@ class MyAppState extends State<MyApp> {
                   flex: 2,
                 ),
                 TextButton(
+                    style: TextButton.styleFrom(
+                      backgroundColor: Colors.blueAccent,
+                      padding: const EdgeInsets.symmetric(horizontal: 40),
+                      shape: const RoundedRectangleBorder(
+                        borderRadius: BorderRadius.all(Radius.circular(8)),
+                      ),
+                    ),
                     onPressed: () {
                       if (_startMeasure.isEmpty ||
                           _convertedMeasure.isEmpty ||
@@ -158,7 +165,7 @@ class MyAppState extends State<MyApp> {
                     },
                     child: const Text(
                       'Convert',
-                      style: inputStyle,
+                      style: TextStyle(color: Colors.white, fontSize: 16),
                     )),
                 const Spacer(
                   flex: 2,
