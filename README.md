@@ -1,16 +1,33 @@
-# unit_converter
+# **Measures Converter App**
 
-A new Flutter project.
+## **Overview**
+A simple Flutter app for measures conversion with user-friendly input fields, dropdown menus, and a responsive design.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## **Features**
+- Text field for user input.
+- Dropdowns for selecting "From" and "To" conversion units.
+- Conversion button to trigger the logic.
+- Dynamic result display.
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## **Installation**
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/anasassad/Unit-Converter.git
+2. Navigate to the project directory:
+   ```bash
+   cd unit_converter
+4. Install dependencies:
+   ```bash
+   flutter pub get
+6. Run the app:
+   ```bash
+   flutter run
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## **Screenshots**
+### Final Project Overview
+![Home Screen](unit_converter.png)
